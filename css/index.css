@@ -208,9 +208,6 @@ footer {
 	body {
 		max-width: 500px;
 	}
-	.logo-link {
-		margin-bottom: 0px;
-	}
 	nav a {
 		border-bottom: 1px solid black;
 		width: 100%;
@@ -220,7 +217,54 @@ footer {
 	}
 	nav {
 		flex-direction: column;
-		justify-content: space-evenly:
+		margin-top: 20px;
+	}
+	.product {
+		margin-top: 10px;
+	}
+	.vision {
+		margin-top: 20px;
+	}
+	.features {
+		margin-top: 20px;
+	}
+	.about {
+		margin-top: 20px;
+	}
+	.contact {
+		margin-top: 20px;
+	}
+	.index-header {
+		margin-top: 40px;
+	}
+	.top-content {
+		flex-direction: column;
+	}
+	.top-content div {
+		width: 100%;
+		padding-top: 30px;
+	}
+	.top-content .top-about {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.middle-img {
+		width: 95%;
+	}
+	.bottom-content div {
+		width: 100%;
+	}
+	.bottom-content {
+		flex-direction: column;
+		justify-content: space-around;
+		margin-top: 35px;
+		padding-bottom: 40px;
+	}
+	.bottom-content .bottom-products {
+		margin-top: 70px;
+	}
+	.bottom-content .bottom-vision {
+		margin-top: 75px;
 	}
 }
 
